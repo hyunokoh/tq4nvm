@@ -1,0 +1,89 @@
+ns 50, sm 50
+
+------------------------------------------------------
+-----------------Statistics---------------------------
+------------------------------------------------------
+Total commited inst : 543003183
+156631078.146960 133152 1845200  263148314
+Estimated execution cycle : 421757744
+Effective dispatch rate : 0.288453 
+Branch mispredict penalty : 26 
+------------------------------------------------------
+--------------
+Cache il1
+--------------
+num_access: 64549708
+num_miss: 11096
+num_miss_star: 11066
+# of original bit change : 360191180
+# of aes bit change : 518425800
+# of otp bit change : 437841766
+--------------
+Cache dl1
+--------------
+num_access: 116217272
+num_miss: 155176
+num_miss_star: 131937
+# of original bit change : 360191180
+# of aes bit change : 518425800
+# of otp bit change : 437841766
+--------------
+Cache ul2
+--------------
+num_access: 166272
+num_miss: 19437
+num_miss_star: 9226
+# of original bit change : 360191180
+# of aes bit change : 518425800
+# of otp bit change : 437841766
+--------------
+Bpred 
+--------------
+num_lookups: 77612229
+num_misses: 10121089
+
+
+
+ns 100 sm 100
+------------------------------------------------------
+-----------------Statistics---------------------------
+------------------------------------------------------
+Total commited inst : 1891910188
+524375768.096939 405888 3096800  1131611968
+Estimated execution cycle : 1659490424
+Effective dispatch rate : 0.277167 
+Branch mispredict penalty : 32 
+------------------------------------------------------
+--------------
+Cache il1
+--------------
+num_access: 224947175
+num_miss: 33824
+num_miss_star: 33549
+# of original bit change : 1255892737
+# of aes bit change : 1807537765
+# of otp bit change : 1258958208
+--------------
+Cache dl1
+--------------
+num_access: 404907465
+num_miss: 531590
+num_miss_star: 441262
+# of original bit change : 1255892737
+# of aes bit change : 1807537765
+# of otp bit change : 1258958208
+--------------
+Cache ul2
+--------------
+num_access: 565414
+num_miss: 36647
+num_miss_star: 15484
+# of original bit change : 1255892737
+# of aes bit change : 1807537765
+# of otp bit change : 1258958208
+--------------
+Bpred 
+--------------
+num_lookups: 270403098
+num_misses: 35362874
+
